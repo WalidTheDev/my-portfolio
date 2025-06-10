@@ -1,17 +1,23 @@
-import { useState } from "react"
-function App() {
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
-const [name , setName] = useState("");
-
-function handleChange(){
-  setName
-}
+const App = () => {
   return (
     <>
-     <h1>Hello akil !</h1>
-     {/* <input type="text" onChange={handleChange} /> */}
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

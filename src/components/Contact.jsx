@@ -4,7 +4,7 @@ const Contact = () => {
       <div className="max-w-xl mx-auto">
         <h3 className="text-3xl font-semibold mb-6 text-center">Contact Me</h3>
         <form
-          action="https://formspree.io/f/your-form-id"  // Replace with your actual Formspree endpoint
+          action="https://formspree.io/f/xblygebw"  
           method="POST"
           className="space-y-4"
         >

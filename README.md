@@ -1,12 +1,51 @@
-# React + Vite
+<h1 align="center">Hi 👋, I'm Walid</h1>
+<h3 align="center">Backend focused Developer | Python Enthusiast </h3>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Passionate+Full-stack+Web+Developer;Always+learning+new+tech;Clean+code+advocate" alt="Typing SVG" />
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🧑‍💻 About Me
 
-## Expanding the ESLint configuration
+- 🎓 Recent CS grad from VESASC, Mumbai  
+- 🔭 Currently building **LiteWrite**, a Backend heavy Blogging web app  
+- 🛠️ Love working with JavaScript, Python, and scalable backend systems  
+- 🤝 Open to backend internship  or full-time opportunities  
+- 🧠 Forever learning, currently exploring: **FastAPI**, **Microservices**,  **System Design** and **AWS**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🧰 Tech Stack
+
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=python,java,javascript,nodejs,express,mongodb,mysql,postman"/><br>    
+    <img src="https://skillicons.dev/icons?i=html,css,react,bootstrap,tailwind,vscode,github,git" />
+</div>
+
+---
+
+### 🚀 Projects
+
+- 🔍 **[Lens-n-Light](https://github.com/WalidTheDev/Lens-n-Light)**  
+  *A camera rental platform for creators and studios — with booking, authentication, and admin dashboard.*
+
+- 📊 **[DataLab](https://github.com/WalidTheDev/DataLab-Frontend)**  
+  *An interactive data science workspace — upload, clean, and run ML algorithms in-browser.*
+
+- 💼 **[LiteWrite](https://github.com/WalidTheDev/LiteWrite)** *(WIP)*  
+  *A blogging websites with many real-world features*
+
+---
+
+### 📫 Connect With Me
+
+
+- 🔗 [LinkedIn](https://linkedin.com/in/walidshaikh)  
+- 📧 walidshaikh552@gmail.com  
+- 🔗 [X / Twitter](https://twitter.com/WalidTheDev)  
+- 🔗 [Dev.to](https://dev.to/WalidTheDev)  
+- 🔗 [Resume](https://drive.google.com/file/d/101VeJPcOC7e8A1vgo1ZEVGxIsemX17fl/view)
+
+---

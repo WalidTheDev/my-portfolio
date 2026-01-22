@@ -1,9 +1,11 @@
-const Footer = () => {
+export default function Footer() {
   return (
-    <footer className="py-4 bg-gray-900 text-white text-center">
-      <p>&copy; {new Date().getFullYear()} Walid Shaikh. All rights reserved.</p>
+    <footer
+      id="contact"
+      className="border-t border-zinc-800 py-12 px-6 text-center text-zinc-400"
+    >
+      <p className="mb-2">Let’s build something solid.</p>
+      <p className="text-sm">walidshaikh552@gmail.com</p>
     </footer>
   );
-};
-
-export default Footer;
+}

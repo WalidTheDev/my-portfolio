@@ -1,35 +1,28 @@
-const projects = [
-  {
-    title: 'Lens-n-Light',
-    desc: 'AI-powered photo enhancer with backend services.',
-    link: 'https://github.com/WalidTheDev/lens-n-light'
-  },
-  {
-    title: 'DataLab',
-    desc: 'Web-based platform to upload, clean, and run ML on CSV data.',
-    link: 'https://github.com/WalidTheDev/datalab'
-  }
-];
-
-const Projects = () => {
+export default function Projects() {
   return (
-    <section id="projects" className="py-16 px-4 bg-gray-100">
-      <div className="max-w-5xl mx-auto">
-        <h3 className="text-3xl font-semibold mb-8 text-center">Projects</h3>
-        <div className="grid gap-6 md:grid-cols-2">
-          {projects.map((p) => (
-            <div key={p.title} className="bg-white p-6 rounded shadow">
-              <h4 className="text-xl font-bold mb-2">{p.title}</h4>
-              <p className="text-gray-600">{p.desc}</p>
-              <a href={p.link} target="_blank" className="text-blue-600 mt-2 inline-block">
-                View on GitHub →
-              </a>
-            </div>
-          ))}
-        </div>
+    <section id="projects" className="py-24 px-6 max-w-6xl mx-auto">
+      <h2 className="text-3xl font-bold mb-12">Selected Projects</h2>
+
+      <div className="grid md:grid-cols-3 gap-8">
+        {[1, 2, 3].map((i) => (
+          <div
+            key={i}
+            className="bg-zinc-900 border border-zinc-800 rounded-xl p-6
+                       hover:-translate-y-1 transition-transform"
+          >
+            <h3 className="text-xl font-semibold mb-3">
+              Project Title {i}
+            </h3>
+            <p className="text-zinc-400 mb-4">
+              Short description of the problem, backend architecture,
+              and technologies used. Replace with real project details.
+            </p>
+            <span className="text-sm text-blue-400">
+              Details → (coming soon)
+            </span>
+          </div>
+        ))}
       </div>
     </section>
   );
-};
-
-export default Projects;
+}

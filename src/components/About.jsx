@@ -1,16 +1,27 @@
-const About = () => {
+export default function About() {
   return (
-    <section id="about" className="py-16 px-4 bg-gray-100">
-      <div className="max-w-4xl mx-auto">
-        <h3 className="text-3xl font-semibold mb-4">About Me</h3>
-        <p className="text-gray-700 leading-loose">
-          I’m a B.Sc. Computer Science graduate passionate about building real-world web applications and backend systems.
-          I’ve worked on full-stack projects using the MERN stack, FastAPI, and more. I’m currently looking for internship or
-          SDE roles where I can grow and contribute.
+    <section id="about" className="py-24 px-6 max-w-5xl mx-auto">
+      <h2 className="text-3xl font-bold mb-8">About Me</h2>
+
+      <div className="text-zinc-300 space-y-4 leading-relaxed">
+        <p>
+          I’m a backend-focused developer with a background in computer science.
+          I enjoy working close to the data layer — designing APIs, structuring
+          databases, and thinking about scalability and performance.
+        </p>
+
+        <p>
+          Right now, I’m working on a backend-heavy blogging platform
+          <span className="font-medium"> (project details coming soon)</span>,
+          and deepening my understanding of distributed systems and cloud
+          infrastructure.
+        </p>
+
+        <p>
+          I’m actively looking for opportunities where I can grow as a backend
+          engineer and contribute to real-world systems.
         </p>
       </div>
     </section>
   );
-};
-
-export default About;
+}

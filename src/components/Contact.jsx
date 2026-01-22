@@ -1,23 +1,25 @@
-const Contact = () => {
+export default function Contact() {
   return (
-    <section id="contact" className="py-16 px-4">
-      <div className="max-w-xl mx-auto">
-        <h3 className="text-3xl font-semibold mb-6 text-center">Contact Me</h3>
-        <form
-          action="https://formspree.io/f/xblygebw"  
-          method="POST"
-          className="space-y-4"
-        >
-          <input type="text" name="name" placeholder="Your Name" required className="w-full border px-4 py-2 rounded" />
-          <input type="email" name="email" placeholder="Your Email" required className="w-full border px-4 py-2 rounded" />
-          <textarea name="message" rows="5" placeholder="Your Message" required className="w-full border px-4 py-2 rounded"></textarea>
-          <button type="submit" className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">
-            Send Message
-          </button>
-        </form>
-      </div>
+    <section className="max-w-5xl mx-auto px-6 py-20">
+      <h3 className="text-2xl font-bold mb-6">📫 Connect With Me</h3>
+
+      <ul className="space-y-3 text-zinc-300">
+        <li>
+          🔗 <a href="https://linkedin.com/in/walidshaikh" className="text-blue-400 hover:underline">LinkedIn</a>
+        </li>
+        <li>📧 walidshaikh552@gmail.com</li>
+        <li>
+          🔗 <a href="https://twitter.com/WalidTheDev" className="text-blue-400 hover:underline">X / Twitter</a>
+        </li>
+        <li>
+          🔗 <a href="https://dev.to/WalidTheDev" className="text-blue-400 hover:underline">Dev.to</a>
+        </li>
+        <li>
+          🔗 <a href="https://drive.google.com/file/d/101VeJPcOC7e8A1vgo1ZEVGxIsemX17fl/view" className="text-blue-400 hover:underline">
+            Resume
+          </a>
+        </li>
+      </ul>
     </section>
   );
-};
-
-export default Contact;
+}
